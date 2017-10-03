@@ -5,10 +5,8 @@
 ** Login   <arnaud_h@etna-alternance.net>
 ** 
 ** Started on  Mon Oct  2 19:57:16 2017 ARNAUD Hugo
-** Last update Tue Oct  3 15:10:49 2017 ARNAUD Hugo
+** Last update Tue Oct  3 15:13:24 2017 ARNAUD Hugo
 */
-#include <unistd.h>
-
 void	my_put_nbr(int n);
 
 int	my_getnbr(char *str)
@@ -38,21 +36,4 @@ int	my_getnbr(char *str)
       c = c + 1;
     }
   return (b);
-}
-
-int	main()
-{
-  my_put_nbr(my_getnbr("42"));
-  write (1, "\n", 1);
-  my_put_nbr(my_getnbr("666def123"));
-  write (1, "\n", 1);
-  my_put_nbr(my_getnbr("-35kjb45"));
-  write (1, "\n", 1);
-  my_put_nbr(my_getnbr("hgvj85khb"));
-  write (1, "\n", 1);
-  my_put_nbr(my_getnbr("+-+4trois"));
-  write (1, "\n", 1);
-  my_put_nbr(my_getnbr("--1"));
-  write (1, "\n", 1);
-  return (0);
 }
