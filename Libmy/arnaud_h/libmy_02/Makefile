@@ -5,7 +5,7 @@
 ## Login   <arnaud_h@etna-alternance.net>
 ## 
 ## Started on  Sat Sep 30 09:12:28 2017 ARNAUD Hugo
-## Last update Tue Oct  3 08:45:00 2017 ARNAUD Hugo
+## Last update Tue Oct  3 08:53:18 2017 ARNAUD Hugo
 ##
 CC	= gcc
 NAME	= libmy.a
@@ -15,16 +15,16 @@ SRC	= my_putchar.c		\
 	  my_swap.c		\
 	  my_putstr.c		\
 	  my_strlen.c		\
-	  my_getnbr.c		\ ##
+	  my_getnbr.c		\
 	  my_strcpy.c		\
 	  my_strncpy.c		\
 	  my_strcmp.c		\
 	  my_strncmp.c		\
 	  my_strcat.c		\
 	  my_strncat.c		\
-	  my_strstr.c		\ ##
+	  my_strstr.c		\
 	  my_strdup.c		\
-	  my_str_to_wordtab.c ##
+	  my_str_to_wordtab.c
 OBJ	= $(SRC:%.c=%.o)
 RM	= rm -f
 CFLAGS	= -W -Wall -ansi -pedantic -L. -I.
