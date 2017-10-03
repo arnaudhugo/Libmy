@@ -5,7 +5,7 @@
 ** Login   <arnaud_h@etna-alternance.net>
 ** 
 ** Started on  Mon Oct  2 14:28:22 2017 ARNAUD Hugo
-** Last update Mon Oct  2 14:38:00 2017 ARNAUD Hugo
+** Last update Tue Oct  3 09:01:52 2017 ARNAUD Hugo
 */
 int	funct1(char *s1, int n_s1, int n)
 {
@@ -35,7 +35,7 @@ int	funct2(char *s2, int n_s2, int n)
   return (n_s2);
 }
 
-int	my_strcmp(char *s1, char *s2, int n)
+int	my_strncmp(char *s1, char *s2, int n)
 {
   int	n_s1;
   int	n_s2;
