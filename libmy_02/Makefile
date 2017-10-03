@@ -5,13 +5,13 @@
 ## Login   <arnaud_h@etna-alternance.net>
 ## 
 ## Started on  Sat Sep 30 09:12:28 2017 ARNAUD Hugo
-## Last update Tue Oct  3 08:53:18 2017 ARNAUD Hugo
+## Last update Tue Oct  3 08:56:14 2017 ARNAUD Hugo
 ##
 CC	= gcc
 NAME	= libmy.a
 SRC	= my_putchar.c		\
 	  my_isneg.c		\
-	  my_put_bnr.c		\
+	  my_put_nbr.c		\
 	  my_swap.c		\
 	  my_putstr.c		\
 	  my_strlen.c		\
