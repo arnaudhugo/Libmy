@@ -5,7 +5,7 @@
 ** Login   <arnaud_h@etna-alternance.net>
 ** 
 ** Started on  Mon Oct  2 17:03:10 2017 ARNAUD Hugo
-** Last update Mon Oct  2 19:31:57 2017 ARNAUD Hugo
+** Last update Tue Oct  3 10:05:22 2017 ARNAUD Hugo
 */
 #include <unistd.h>
 
@@ -32,15 +32,4 @@ void	my_put_nbr(int n)
       a = n + 48;
       write (1, &a, 1);
     }
-}
-
-int	main()
-{
-  my_put_nbr(-600000);
-  write (1, "\n", 1);
-  my_put_nbr(5116);
-  write (1, "\n", 1);
-  my_put_nbr(0);
-  write (1, "\n", 1);
-  return (0);
 }

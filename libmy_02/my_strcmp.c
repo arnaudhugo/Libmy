@@ -5,9 +5,9 @@
 ** Login   <arnaud_h@etna-alternance.net>
 ** 
 ** Started on  Thu Sep 28 15:26:59 2017 ARNAUD Hugo
-** Last update Sat Sep 30 10:28:05 2017 ARNAUD Hugo
+** Last update Tue Oct  3 10:07:57 2017 ARNAUD Hugo
 */
-int funct1(char *s1, int n_s1)
+int	my_strcmp_fonct1(char *s1, int n_s1)
 {
   while (*s1 != '\0')
     {
@@ -17,7 +17,7 @@ int funct1(char *s1, int n_s1)
   return (n_s1);
 }
 
-int funct2(char *s2, int n_s2)
+int	my_strcmp_fonct2(char *s2, int n_s2)
 {
   while (*s2 != '\0')
     {
@@ -34,8 +34,8 @@ int	my_strcmp(char *s1, char *s2)
 
   n_s1 = 0;
   n_s2 = 0;
-  funct1(s1, n_s1);
-  funct2(s2, n_s2);
+  my_strcmp_fonct1(s1, n_s1);
+  my_strcmp_fonct2(s2, n_s2);
   if (n_s1 == n_s2)
     {
       return (0);
