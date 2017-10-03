@@ -5,9 +5,13 @@
 ** Login   <arnaud_h@etna-alternance.net>
 ** 
 ** Started on  Tue Oct  3 08:40:59 2017 ARNAUD Hugo
-** Last update Tue Oct  3 09:04:06 2017 ARNAUD Hugo
+** Last update Tue Oct  3 10:27:04 2017 ARNAUD Hugo
 */
+void	my_putstr(char *str);
+
 int	my_getnbr(char *str)
 {
-  return (str);
+  str = "blabla";
+  my_putstr(str);
+  return (0);
 }
