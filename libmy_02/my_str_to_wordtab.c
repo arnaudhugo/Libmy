@@ -5,9 +5,9 @@
 ** Login   <arnaud_h@etna-alternance.net>
 ** 
 ** Started on  Tue Oct  3 08:41:58 2017 ARNAUD Hugo
-** Last update Tue Oct  3 08:42:29 2017 ARNAUD Hugo
+** Last update Tue Oct  3 09:04:45 2017 ARNAUD Hugo
 */
 char	**my_str_to_wordtab(char *str)
 {
-  return (0);
+  return (str);
 }
